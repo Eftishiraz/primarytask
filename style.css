@@ -1,0 +1,93 @@
+ body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+ header{
+   width: 100%;
+   height: 100vh;
+    background-image:url(img.jpg) ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-sizing: border; */
+ 
+} 
+.logo{
+    float: left;
+  //  background-color: rgb(177, 29, 29);
+}
+.logo img {
+    width: 218px;
+    height: 116px;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(55, 56, 117);
+    color: rgb(154, 191, 201);
+    
+    float: right;
+}
+
+  .manu_bar ul{
+     margin-top: 45px;
+    list-style-type: none;
+    color: rgb(26, 218, 218);
+    float: right;
+    text-align: center;
+    width: 45%;
+    font-size: 25px;
+   // background-color: chartreuse;
+} 
+
+
+.manu_bar ul li{
+  
+   display: inline;
+    text-align: center;
+    margin:20px ;
+    
+
+} 
+ .manu_bar ul li a{
+     text-decoration: none;
+     color: white;
+     border: 1px solid black;
+     padding: 5px;
+     margin: 15px;
+     width: 25%;
+ }   
+
+ .manu_bar ul  li a:hover {
+    background-color:blue ;
+}
+main{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h2{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(96, 34, 167);
+
+}
+section a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: dodgerblue;
+}
+section a:hover{
+   
+    background-color: white;
+}
+
+
+
+
